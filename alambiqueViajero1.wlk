@@ -122,7 +122,7 @@ object superChatarraEspecial{
     method canionPuesto() = canionPuesto 
 
    method combustible() {
-    if (canionPuesto) { // Leemos directamente tu variable booleana canionPuesto
+    if (canionPuesto) { 
         return 50
       } else {
         return 80
